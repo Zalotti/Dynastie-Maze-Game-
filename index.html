@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Dynastie</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <audio id="songStart" hidden controls>
+    <source src="start_screen.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>  
+  <audio id="songLevel" hidden controls>
+  <source src="level.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio> 
+  <audio id="levelSong" hidden controls>
+    <source src="levelSong.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>  
+  <audio id="ending" hidden controls>
+    <source src="ending.mp3" type="audio/mpeg">
+  Your browser does not support the audio element.
+  </audio>  
+<div class="menu" id="menu">
+</div>
+<div class="space" id="space">
+</div>
+<div class="loreA" id="loreA">
+</div>
+<div class="loreB" id="loreB">
+</div>
+<div class="loreC" id="loreC">
+</div>
+<div class="loreD" id="loreD">
+</div>
+<div class="start" id="start">
+</div>
+<div class="gameEnd" id="gameEnd">
+</div>
+<div class="messageEnd" id="messageEnd">
+</div>
+<div class="continue" id="continue">
+</div>
+<div class="game" id="game" hidden>
+  <canvas width="640" height="520" style="border: solid;"></canvas>
+</div>
+<script src="js/game.js"></script>
+</body>
+</html>
